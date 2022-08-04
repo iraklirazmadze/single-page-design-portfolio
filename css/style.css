@@ -265,13 +265,17 @@ color: #030303;
   justify-content: center;
   overflow: hidden;
   column-gap: 10px;
+
 }
 
 .images img{
   width:78%;
+  max-width: 540px;
   border-radius: 8px;
-  transition:all 0.2s;
+  transition: 0.3s;
+  max-height: 360px;
 }
+
 
 .arrows{
   display: flex;
